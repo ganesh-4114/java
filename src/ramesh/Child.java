@@ -24,8 +24,9 @@ class AndroidApp extends WebApplication {
 	void hi() {
 		System.out.println("Google Playstore");
 	}
+	String date;
 	void newjoin() {
-		System.out.println("Yes, ganesh is newly joined");
+		
 	}
 }
 
@@ -38,7 +39,6 @@ class EnterpriseApplication extends AndroidApp {
  class Child {
 	public static void main(String args[]) {
        EnterpriseApplication emp = new EnterpriseApplication();
-       
 		emp.dev();
 		emp.setRole("Adobe Acrobat");
 	    emp.setExperience(5);
@@ -46,9 +46,6 @@ class EnterpriseApplication extends AndroidApp {
 		System.out.println(emp.getExperience());
 		emp.hi();
 		emp.newjoin();
-		
-		
-		
 	}
 
 }
